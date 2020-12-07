@@ -2,8 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class shouldCalculate {
-    class shouldCalculateForNotRegistered {
+class shouldCalculateForNotRegisteredTest {
         @Test
         void calculate() {
             BonusService service = new BonusService();
@@ -13,5 +12,4 @@ class shouldCalculate {
             long actual = service.calculate(amount, registered);
             assertEquals(expected, actual);
         }
-    }
 }

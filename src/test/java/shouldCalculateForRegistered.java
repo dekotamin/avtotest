@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-class shouldCalculateForRegistered {
+class shouldCalculateForRegisteredTest {
     @Test
     void calculate() {
         BonusService service = new BonusService();
